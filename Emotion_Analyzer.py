@@ -27,7 +27,7 @@ def analyze(frame):
     img = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
 
     prompt = """Analyze this person briefly and bluntly (2-3 sentences max):
-    - If messy/unkempt: "Why are you so ugly?"
+    - If messy/unkempt: "Why are you so messy?"
     - If sad: "Why are you so sad?"
     - If tired: "Why do you look so tired?"
     - If happy: "You look happy today!"
@@ -87,3 +87,4 @@ while True:
 
 cam.release()
 cv2.destroyAllWindows()
+
