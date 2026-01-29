@@ -5,7 +5,7 @@
 A webcam app that uses Google's Gemini-2.5-flash AI to analyze your appearance and roast you in real-time.
 
 <img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-<img src="https://img.shields.io/badge/OpenCV-5.0+-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
+<img src="https://img.shields.io/badge/OpenCV-4.2+-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
 <img src="https://img.shields.io/badge/Google_Gemini-2.5_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini">
 
 </div>
@@ -116,3 +116,4 @@ Pro tip: AI loves to fix one bug and casually introduce two more like it's doing
 MIT License
 
 Note : This project is a humorous experiment in AI interaction and please don't take it's answers seriouslyt if it hurts you personally
+
