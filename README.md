@@ -2,10 +2,10 @@
 
 # Emotion Analyzer
 
-A webcam app that uses Google's Gemini API to analyze your appearance and roast you in real-time.
+A webcam app that uses Google's Gemini-2.5-flash AI to analyze your appearance and roast you in real-time.
 
 <img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-<img src="https://img.shields.io/badge/OpenCV-4.12+-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
+<img src="https://img.shields.io/badge/OpenCV-5.0+-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
 <img src="https://img.shields.io/badge/Google_Gemini-2.5_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini">
 
 </div>
@@ -33,7 +33,7 @@ Press **Q** to quit.
 
 ## Development Journey & Debugging
 
-Building this was honestly a mess. Here's what went wrong and how I fixed it (with a lot of help from AI).
+Building this was honestly a mess. Here's what went wrong and how I fixed it (with a mess with AI).
 
 ### Problem 1: Video Freezing During Analysis
 
@@ -66,7 +66,9 @@ if len(faces) > 0 and (time.time() - last_time) >= 10:
 
 ### Honest Truth
 
-I didn't really understand threading or the `time` library that well before this. Most of the debugging was done with **Claude Sonnet 4.5** helping me figure out why things weren't working. The AI-generated code had some "dummy" patterns that I tried to clean up, but there's probably still some AI fingerprints in there.
+I didn't really understand threading or the `time` library that well before this. Most of the debugging was done with **Claude Sonnet 4.5** helping me figure out why things weren't working. 
+
+Pro tip: AI loves to fix one bug and casually introduce two more like it's doing me a favor. The AI-generated code had some "dummy" patterns that I tried to clean up, but there are probably still some AI fingerpr in there.
 
 <div align="center">
 
@@ -108,3 +110,9 @@ I didn't really understand threading or the `time` library that well before this
 - The threading should fix this, but if not, try reducing the analysis frequency
 
 ---
+
+## License
+
+MIT License
+
+Note : This project is a humorous experiment in AI interaction and please don't take it's answers seriouslyt if it hurts you personally
